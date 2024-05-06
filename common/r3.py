@@ -53,6 +53,7 @@ class R3:
             s += sqrt(vector.dot(vector))
         return s / 2
 
+
 if __name__ == "__main__":  # pragma: no cover
     x = R3(1.0, 1.0, 1.0)
     print("x", type(x), x.__dict__)
