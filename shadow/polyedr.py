@@ -166,7 +166,6 @@ class Polyedr:
 
                     self.area += R3.area(vertexes) / c / c
 
-
     # Метод изображения полиэдра
     def draw(self, tk):  # pragma: no cover
         tk.clean()
